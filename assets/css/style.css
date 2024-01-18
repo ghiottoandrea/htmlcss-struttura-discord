@@ -16,8 +16,8 @@
 }
 
 .debug footer {
-    background-color: darkgreen;
-    height: 300px;
+    background-color: rgba(0, 0, 0, 0.905);
+    /* height: 300px; */
 }
 
 /* #endregion debug */
@@ -27,9 +27,10 @@ body {
     margin: 0;
 }
 
-nav{
+nav {
     padding: 0.5rem 0;
 }
+
 /* #endregion Common */
 
 /* #region Utilities */
@@ -39,6 +40,10 @@ nav{
     margin: auto;
 
 }
+.pdd-1-0{
+    padding: 1rem 0;
+}
+
 /* #endregion Utilities */
 
 .top-navigator {
@@ -47,39 +52,66 @@ nav{
 
 }
 
-.top-banner{
+.top-banner {
     background-color: pink;
     justify-content: center;
     height: 9rem;
     align-items: center;
 }
 
-header{
+header {
     padding: 1rem 4rem;
 }
 
-.first-section{
+.first-section {
     background-color: white;
-    padding: 1rem 0;
 }
 
-.first-content{
+.first-content {
     background-color: dodgerblue;
     height: 15rem;
     width: 60%;
 }
 
-.second-content{
+.second-content {
     background-color: pink;
     height: 15rem;
     width: 40%;
 }
 
-.second-section{
+.second-section {
     background-color: lightgrey;
-    padding: 1rem 0;
 }
-.third-section{
+.reverse{
+    flex-direction: row-reverse;
+}
+.third-section {
     background-color: white;
-    padding: 1rem 0;
+}
+
+.primary-content {
+    background-color: green;
+}
+
+.fourth-section {
+    background-color: lightgrey;
+}
+
+.primary-content{
+    background-color: rgb(16, 92, 4);
+    justify-content: center;
+    height: 35rem;
+    align-items: center;
+}
+
+.bottom-credits{
+    flex-grow: 2;
+    background-color: red;
+    height: 350px;
+}
+
+.bottom-contacts{
+    flex-grow: 1;
+    background-color: aqua;
+    border-left: 1px solid black;
 }
