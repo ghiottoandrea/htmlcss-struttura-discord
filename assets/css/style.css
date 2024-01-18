@@ -1,4 +1,22 @@
 /* #region debug */
+.debug nav{
+    background-color: aqua;
+    height: 20px;
+}
+
+.debug header{
+    background-color: blue;
+    height: 100px;
+}
+
+.debug main{
+    background-color: lightgrey;
+    height: 900px;
+}
+.debug footer{
+    background-color: darkgreen;
+    height: 300px;
+}
 /* #endregion debug */
 
 /* #region Common */
@@ -6,3 +24,18 @@ body{
     margin: 0;
 }
 /* #endregion Common */
+
+/* #region Utilities */
+.flex-container{
+    display: flex;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/* #endregion Utilities */
+
+.menu{
+    justify-content: space-around;
+    background-color: yellow;
+}
