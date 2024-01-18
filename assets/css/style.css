@@ -1,3 +1,8 @@
+/* #region debug */
+/* #endregion debug */
+
+/* #region Common */
 body{
-    background-color: blue;
+    margin: 0;
 }
+/* #endregion Common */
