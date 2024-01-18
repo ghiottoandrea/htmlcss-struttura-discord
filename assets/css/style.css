@@ -31,6 +31,10 @@ nav {
     padding: 0.5rem 0;
 }
 
+header {
+    padding: 1rem 4rem;
+}
+
 /* #endregion Common */
 
 /* #region Utilities */
@@ -40,11 +44,17 @@ nav {
     margin: auto;
 
 }
-.pdd-1-0{
+
+.pdd-1-0 {
     padding: 1rem 0;
 }
 
+.reverse {
+    flex-direction: row-reverse;
+}
+
 /* #endregion Utilities */
+/* #region Header */
 
 .top-navigator {
     justify-content: space-between;
@@ -58,60 +68,61 @@ nav {
     height: 9rem;
     align-items: center;
 }
+/* #endregion Header */
 
-header {
-    padding: 1rem 4rem;
+/* #region Main */
+.first-content {
+    background-color: dodgerblue;
+    height: 25rem;
+    flex-grow: 3;
+}
+
+.second-content {
+    background-color: pink;
+    flex-grow: 2;
 }
 
 .first-section {
     background-color: white;
 }
 
-.first-content {
-    background-color: dodgerblue;
-    height: 15rem;
-    width: 60%;
-}
-
-.second-content {
-    background-color: pink;
-    height: 15rem;
-    width: 40%;
-}
-
 .second-section {
     background-color: lightgrey;
 }
-.reverse{
-    flex-direction: row-reverse;
-}
+
 .third-section {
     background-color: white;
-}
-
-.primary-content {
-    background-color: green;
 }
 
 .fourth-section {
     background-color: lightgrey;
 }
 
-.primary-content{
+
+.primary-content {
     background-color: rgb(16, 92, 4);
     justify-content: center;
-    height: 35rem;
+    height: 40rem;
     align-items: center;
 }
+/* #endregion Main */
 
-.bottom-credits{
+/* #region Footer */
+.bottom-credits {
     flex-grow: 2;
     background-color: red;
     height: 350px;
 }
 
-.bottom-contacts{
+.bottom-contacts {
     flex-grow: 1;
     background-color: aqua;
     border-left: 1px solid black;
 }
+
+.bottom-banner {
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 0.5rem 0;
+}
+/* #endregion Footer */
